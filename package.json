@@ -1,0 +1,32 @@
+{
+  "name": "timelion-chain-parser",
+  "version": "1.0.0",
+  "description": "Timelion Chain parser",
+  "main": "chain_parser.js",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "chai": "~3.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmangani/timelion-chain-parser.git"
+  },
+  "keywords": [
+    "timelion",
+    "parser",
+    "peg",
+    "kibana"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lmangani/timelion-chain-parser/issues"
+  },
+  "homepage": "https://github.com/lmangani/timelion-chain-parser#readme"
+}
