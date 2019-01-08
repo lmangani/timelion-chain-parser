@@ -1,6 +1,6 @@
 {
   "name": "timelion-chain-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timelion Chain parser",
   "main": "chain_parser.js",
   "dependencies": {
@@ -10,6 +10,9 @@
     "chai": "~3.0.0",
     "mocha": "^5.2.0"
   },
+  "files": [
+    "grammar"
+  ],
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
